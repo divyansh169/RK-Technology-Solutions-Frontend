@@ -1,0 +1,764 @@
+<resources>
+    <string name="app_name">Vivah Sahyog</string>
+    <string name="label" />
+
+
+    <string-array name="genderr">
+        <item>Male</item>
+        <item>Female</item>
+
+
+    </string-array>
+
+    <string-array name="facecolor">
+        <item>Fair</item>
+        <item>Medium Skin</item>
+        <item>Wheatish</item>
+        <item>Brown</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="food">
+        <item>Veg</item>
+        <item>Pure-Veg</item>
+        <item>Egg</item>
+        <item>Jain</item>
+        <item>Vegan</item>
+    </string-array>
+
+    <string-array name="highest_education">
+        <item>12th Pass</item>
+        <item>Diploma</item>
+        <item>Certification</item>
+        <item>Associates Degree</item>
+        <item>Bachelors Degree</item>
+        <item>B.A (Bachelor of Arts)</item>
+        <item>B.Sc (Bachelor of Science)</item>
+        <item>B.Com (Bachelor of Commerce)</item>
+        <item>B.Tech (Bachelor of Technology)</item>
+        <item>BBA (Bachelor of Business Administration)</item>
+        <item>BCA (Bachelor of Computer Applications)</item>
+        <item>LLB (Bachelor of Laws)</item>
+        <item>MBBS (Bachelor of Medicine, Bachelor of Surgery)</item>
+        <item>Pharm.D (Doctor of Pharmacy)</item>
+        <item>BDS (Bachelor of Dental Surgery)</item>
+        <item>BAMS (Bachelor of Ayurvedic Medicine and Surgery)</item>
+        <item>BVSc (Bachelor of Veterinary Science)</item>
+        <item>BE (Bachelor of Engineering)</item>
+        <item>Other Bachelors Degree (Specify)</item>
+        <item>Masters Degree</item>
+        <item>M.A (Master of Arts)</item>
+        <item>M.Sc (Master of Science)</item>
+        <item>M.Com (Master of Commerce)</item>
+        <item>M.Tech (Master of Technology)</item>
+        <item>MBA (Master of Business Administration)</item>
+        <item>MCA (Master of Computer Applications)</item>
+        <item>MFA (Master of Fine Arts)</item>
+        <item>MSW (Master of Social Work)</item>
+        <item>LL.M (Master of Laws)</item>
+        <item>MD (Doctor of Medicine)</item>
+        <item>MPharm (Master of Pharmacy)</item>
+        <item>MDS (Master of Dental Surgery)</item>
+        <item>MS (Master of Surgery)</item>
+        <item>MBA (Master of Business Administration)</item>
+        <item>M.Phil (Master of Philosophy)</item>
+        <item>Ph.D. (Doctor of Philosophy)</item>
+        <item>Other Masters Degree (Specify)</item>
+        <item>Doctorate (Post-Doctoral)</item>
+        <item>Other (Specify)</item>
+    </string-array>
+
+    <string-array name="working_status">
+        <item>Working</item>
+        <item>Non-Working</item>
+        <item>Student</item>
+
+
+<!--        <item>Employed</item>-->
+<!--        <item>Self-Employed</item>-->
+<!--        <item>Unemployed</item>-->
+<!--        <item>Student</item>-->
+<!--        <item>Retired</item>-->
+<!--        <item>Homemaker</item>-->
+<!--        <item>Freelancer</item>-->
+<!--        <item>Part-Time Worker</item>-->
+<!--        <item>Full-Time Worker</item>-->
+<!--        <item>Business Owner</item>-->
+<!--        <item>Contract Worker</item>-->
+<!--        <item>Volunteer</item>-->
+<!--        <item>Intern</item>-->
+<!--        <item>Not Applicable</item>-->
+<!--        <item>Other (Specify)</item>-->
+    </string-array>
+
+    <string-array name="employed_in">
+        <item>Private Sector</item>
+        <item>Government Sector</item>
+        <item>Public Sector</item>
+        <item>Self-Employed</item>
+        <item>Not Employed</item>
+        <item>Education</item>
+        <item>Healthcare</item>
+        <item>IT/Technology</item>
+        <item>Finance</item>
+        <item>Manufacturing</item>
+        <item>Research</item>
+        <item>Retail</item>
+        <item>Media/Entertainment</item>
+        <item>Non-Profit</item>
+        <item>Other (Specify)</item>
+    </string-array>
+
+    <string-array name="occupation">
+        <item>Student</item>
+        <item>Engineer</item>
+        <item>Doctor</item>
+        <item>Teacher</item>
+        <item>Software Developer</item>
+        <item>Entrepreneur</item>
+        <item>Artist</item>
+        <item>Accountant</item>
+        <item>Manager</item>
+        <item>Government Employee</item>
+        <item>Business Owner</item>
+        <item>Lawyer</item>
+        <item>Nurse</item>
+        <item>Writer</item>
+        <item>Chef</item>
+        <item>Farmer</item>
+        <item>Designer</item>
+        <item>Marketing Professional</item>
+        <item>Freelancer</item>
+        <item>Consultant</item>
+        <item>Pharmacist</item>
+        <item>Architect</item>
+        <item>Pilot</item>
+        <item>Scientist</item>
+        <item>Social Worker</item>
+        <item>Media Professional</item>
+        <item>Banker</item>
+        <item>IT Professional</item>
+        <item>Real Estate Agent</item>
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item>Carpenter</item>
+        <item>Mechanic</item>
+        <item>Actor</item>
+        <item>Military Personnel</item>
+        <item>Police Officer</item>
+        <item>Firefighter</item>
+        <item>Librarian</item>
+        <item>Dentist</item>
+        <item>Psychologist</item>
+        <item>Environmentalist</item>
+        <item>Event Planner</item>
+        <item>Journalist</item>
+        <item>Athlete</item>
+        <item>Biologist</item>
+        <item>PhD Student</item>
+        <item>Retired</item>
+        <item>Homemaker</item>
+        <item>Researcher</item>
+        <item>Salesperson</item>
+        <item>Financial Analyst</item>
+        <item>Public Relations</item>
+        <item>Data Analyst</item>
+        <item>Public Servant</item>
+        <item>Teacher Assistant</item>
+        <item>Investor</item>
+        <item>Actuary</item>
+        <item>Geologist</item>
+        <item>Agriculturist</item>
+        <item>Forester</item>
+        <item>Surveyor</item>
+        <item>Political Analyst</item>
+        <item>Marine Biologist</item>
+        <item>Other (Specify)</item>
+    </string-array>
+
+
+    <string-array name="annual_income">
+        <item>Less than ₹1,00,000</item>
+        <item>₹1,00,000 - ₹2,00,000</item>
+        <item>₹2,00,000 - ₹3,00,000</item>
+        <item>₹3,00,000 - ₹4,00,000</item>
+        <item>₹4,00,000 - ₹5,00,000</item>
+        <item>₹5,00,000 - ₹6,00,000</item>
+        <item>₹6,00,000 - ₹7,00,000</item>
+        <item>₹7,00,000 - ₹8,00,000</item>
+        <item>₹8,00,000 - ₹9,00,000</item>
+        <item>₹9,00,000 - ₹10,00,000</item>
+        <item>₹10,00,000 - ₹12,50,000</item>
+        <item>₹12,50,000 - ₹15,00,000</item>
+        <item>₹15,00,000 - ₹20,00,000</item>
+        <item>₹20,00,000 - ₹30,00,000</item>
+        <item>₹30,00,000 - ₹40,00,000</item>
+        <item>₹40,00,000 - ₹50,00,000</item>
+        <item>₹50,00,000 - ₹60,00,000</item>
+        <item>₹60,00,000 - ₹70,00,000</item>
+        <item>₹70,00,000 - ₹80,00,000</item>
+        <item>₹80,00,000 - ₹90,00,000</item>
+        <item>₹90,00,000 - ₹1,00,00,000</item>
+        <item>₹1,00,00,000 - ₹1,25,00,000</item>
+        <item>₹1,25,00,000 - ₹1,50,00,000</item>
+        <item>₹1,50,00,000 - ₹2,00,00,000</item>
+        <item>More than ₹2,00,00,000</item>
+        <item>More than ₹10,00,00,000</item>
+        <item>Not Applicable</item>
+    </string-array>
+
+
+    <string-array name="food_style">
+        <item>Vegetarian</item>
+        <item>Pure Vegetarian</item>
+        <item>Non-Vegetarian</item>
+        <item>Jain</item>
+        <item>Vegan</item>
+<!--        <item>Pescetarian</item>-->
+<!--        <item>Lacto-Vegetarian</item>-->
+<!--        <item>Ovo-Vegetarian</item>-->
+<!--        <item>Flexitarian</item>-->
+<!--        <item>Kosher</item>-->
+<!--        <item>Halal</item>-->
+        <item>Other (Specify)</item>
+    </string-array>
+
+    <string-array name="hobbies">
+        <item>Reading</item>
+        <item>Traveling</item>
+        <item>Gardening</item>
+        <item>Cooking</item>
+        <item>Photography</item>
+        <item>Painting</item>
+        <item>Playing a Musical Instrument</item>
+        <item>Sports (Specify Sport)</item>
+        <item>Hiking</item>
+        <item>Crafts</item>
+        <item>Yoga</item>
+        <item>Dancing</item>
+        <item>Writing</item>
+        <item>Fitness/Exercise</item>
+        <item>Volunteering</item>
+        <item>Cinema</item>
+        <item>Gaming</item>
+        <item>Fishing</item>
+        <item>Collecting (Specify Collection)</item>
+        <item>Other (Specify)</item>
+    </string-array>
+
+    <string-array name="drinking_habit">
+        <item>Non-Drinker</item>
+        <item>Social Drinker</item>
+        <item>Regular Drinker</item>
+        <item>Occasional Drinker</item>
+        <item>Heavy Drinker</item>
+        <item>Never Tried</item>
+        <item>Quit Drinking</item>
+    </string-array>
+
+    <string-array name="manglik">
+        <item>Manglik</item>
+        <item>Non-Manglik</item>
+    </string-array>
+
+
+<!--    <string-array name="height">-->
+<!--        <item>Below 4 feet (152 cm)</item>-->
+<!--        <item>5 feet - 5 feet 3 inches (152 - 160 cm)</item>-->
+<!--        <item>5 feet 4 inches - 5 feet 6 inches (162 - 168 cm)</item>-->
+<!--        <item>5 feet 7 inches - 5 feet 9 inches (170 - 175 cm)</item>-->
+<!--        <item>5 feet 10 inches - 6 feet (178 - 183 cm)</item>-->
+<!--        <item>Above 7 feet (183 cm)</item>-->
+<!--    </string-array>-->
+    <string-array name="height">
+        <item>4 feet (48 inches)</item>
+        <item>4 feet 1 inch (49 inches)</item>
+        <item>4 feet 2 inches (50 inches)</item>
+        <item>4 feet 3 inches (51 inches)</item>
+        <item>4 feet 4 inches (52 inches)</item>
+        <item>4 feet 5 inches (53 inches)</item>
+        <item>4 feet 6 inches (54 inches)</item>
+        <item>4 feet 7 inches (55 inches)</item>
+        <item>4 feet 8 inches (56 inches)</item>
+        <item>4 feet 9 inches (57 inches)</item>
+        <item>4 feet 10 inches (58 inches)</item>
+        <item>4 feet 11 inches (59 inches)</item>
+        <item>5 feet (60 inches)</item>
+        <item>5 feet 1 inch (61 inches)</item>
+        <item>5 feet 2 inches (62 inches)</item>
+        <item>5 feet 3 inches (63 inches)</item>
+        <item>5 feet 4 inches (64 inches)</item>
+        <item>5 feet 5 inches (65 inches)</item>
+        <item>5 feet 6 inches (66 inches)</item>
+        <item>5 feet 7 inches (67 inches)</item>
+        <item>5 feet 8 inches (68 inches)</item>
+        <item>5 feet 9 inches (69 inches)</item>
+        <item>5 feet 10 inches (70 inches)</item>
+        <item>5 feet 11 inches (71 inches)</item>
+        <item>6 feet (72 inches)</item>
+        <item>6 feet 1 inch (73 inches)</item>
+        <item>6 feet 2 inches (74 inches)</item>
+        <item>6 feet 3 inches (75 inches)</item>
+        <item>6 feet 4 inches (76 inches)</item>
+        <item>6 feet 5 inches (77 inches)</item>
+        <item>6 feet 6 inches (78 inches)</item>
+        <item>6 feet 7 inches (79 inches)</item>
+        <item>6 feet 8 inches (80 inches)</item>
+        <item>6 feet 9 inches (81 inches)</item>
+        <item>6 feet 10 inches (82 inches)</item>
+        <item>6 feet 11 inches (83 inches)</item>
+        <item>7 feet (84 inches)</item>
+        <item>7 feet 1 inch (85 inches)</item>
+        <item>7 feet 2 inches (86 inches)</item>
+        <item>7 feet 3 inches (87 inches)</item>
+        <item>7 feet 4 inches (88 inches)</item>
+        <item>7 feet 5 inches (89 inches)</item>
+        <item>Above 7.5 feet</item>
+    </string-array>
+
+
+
+
+    <string-array name="weight">
+        <item>40 kg</item>
+        <item>41 kg</item>
+        <item>42 kg</item>
+        <item>43 kg</item>
+        <item>44 kg</item>
+        <item>45 kg</item>
+        <item>46 kg</item>
+        <item>47 kg</item>
+        <item>48 kg</item>
+        <item>49 kg</item>
+        <item>50 kg</item>
+        <item>51 kg</item>
+        <item>52 kg</item>
+        <item>53 kg</item>
+        <item>54 kg</item>
+        <item>55 kg</item>
+        <item>56 kg</item>
+        <item>57 kg</item>
+        <item>58 kg</item>
+        <item>59 kg</item>
+        <item>60 kg</item>
+        <item>61 kg</item>
+        <item>62 kg</item>
+        <item>63 kg</item>
+        <item>64 kg</item>
+        <item>65 kg</item>
+        <item>66 kg</item>
+        <item>67 kg</item>
+        <item>68 kg</item>
+        <item>69 kg</item>
+        <item>70 kg</item>
+        <item>71 kg</item>
+        <item>72 kg</item>
+        <item>73 kg</item>
+        <item>74 kg</item>
+        <item>75 kg</item>
+        <item>76 kg</item>
+        <item>77 kg</item>
+        <item>78 kg</item>
+        <item>79 kg</item>
+        <item>80 kg</item>
+        <item>81 kg</item>
+        <item>82 kg</item>
+        <item>83 kg</item>
+        <item>84 kg</item>
+        <item>85 kg</item>
+        <item>86 kg</item>
+        <item>87 kg</item>
+        <item>88 kg</item>
+        <item>89 kg</item>
+        <item>90 kg</item>
+        <item>91 kg</item>
+        <item>92 kg</item>
+        <item>93 kg</item>
+        <item>94 kg</item>
+        <item>95 kg</item>
+        <item>96 kg</item>
+        <item>97 kg</item>
+        <item>98 kg</item>
+        <item>99 kg</item>
+        <item>100 kg</item>
+        <item>101 kg</item>
+        <item>102 kg</item>
+        <item>103 kg</item>
+        <item>104 kg</item>
+        <item>105 kg</item>
+        <item>106 kg</item>
+        <item>107 kg</item>
+        <item>108 kg</item>
+        <item>109 kg</item>
+        <item>110 kg</item>
+        <item>111 kg</item>
+        <item>112 kg</item>
+        <item>113 kg</item>
+        <item>114 kg</item>
+        <item>115 kg</item>
+        <item>116 kg</item>
+        <item>117 kg</item>
+        <item>118 kg</item>
+        <item>119 kg</item>
+        <item>120 kg</item>
+        <item>Above 120 kg</item>
+    </string-array>
+
+
+    <string-array name="country">
+        <item>United States</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>Australia</item>
+        <item>India</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Spain</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>China</item>
+        <item>Brazil</item>
+        <item>Russia</item>
+        <item>South Africa</item>
+        <item>Other (Specify)</item>
+    </string-array>
+
+    <string-array name="marital_status">
+        <item>Single</item>
+<!--        <item>Married</item>-->
+        <item>Divorced</item>
+        <item>Separated</item>
+        <item>Widowed</item>
+<!--        <item>Engaged</item>-->
+<!--        <item>In a Relationship</item>-->
+<!--        <item>Complicated</item>-->
+        <item>Other (Specify)</item>
+    </string-array>
+    <string-array name="mother_tongue">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Chinese</item>
+        <item>Arabic</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+        <item>Portuguese</item>
+        <item>Bengali</item>
+        <item>Telugu</item>
+        <item>Tamil</item>
+        <item>Punjabi</item>
+        <item>Marathi</item>
+        <item>Gujarati</item>
+        <item>Kannada</item>
+        <item>Odia</item>
+        <item>Malayalam</item>
+        <item>Other (Specify)</item>
+    </string-array>
+    <string-array name="religion">
+        <item>Christianity</item>
+        <item>Islam</item>
+        <item>Hinduism</item>
+        <item>Buddhism</item>
+        <item>Judaism</item>
+        <item>Sikhism</item>
+        <item>Other (Specify)</item>
+    </string-array>
+
+    <string-array name="caste">
+        <item>General</item>
+        <item>SC (Scheduled Caste)</item>
+        <item>ST (Scheduled Tribe)</item>
+        <item>OBC (Other Backward Class)</item>
+        <item>BC (Backward Class)</item>
+        <item>FC (Forward Class)</item>
+        <item>Brahmin</item>
+        <item>Kshatriya (Rajput)</item>
+        <item>Vaishya (Baniya)</item>
+        <item>Jat</item>
+        <item>Gujjar</item>
+        <item>Lingayat</item>
+        <item>Maratha</item>
+        <item>Kamma</item>
+        <item>Reddy</item>
+        <item>Kurmi</item>
+        <item>Patel</item>
+        <item>Muslim (Specify Sect)</item>
+        <item>Christian (Specify Denomination)</item>
+        <item>Sikh (Specify Sect)</item>
+        <item>Buddhist</item>
+        <item>Jain</item>
+        <item>Other (Specify)</item>
+    </string-array>
+    <string-array name="sub_caste">
+        <item>Not Applicable</item>
+        <item>Dalit</item>
+        <item>Adi Dravida</item>
+        <item>Chamar</item>
+        <item>Tribal</item>
+        <item>Gond</item>
+        <item>Munda</item>
+        <item>Yadav</item>
+        <item>Kurmi</item>
+        <item>Maurya</item>
+        <item>Nair</item>
+        <item>Nadar</item>
+        <item>Vanniyar</item>
+        <item>Brahmin</item>
+        <item>Iyer</item>
+        <item>Iyengar</item>
+        <item>Smarta Brahmin</item>
+        <item>Rajput</item>
+        <item>Thakur</item>
+        <item>Kshatriya Raju</item>
+        <item>Specify Sub-Caste</item>
+    </string-array>
+
+
+    <string-array name="gotra">
+        <item>Bharadwaj</item>
+        <item>Kashyap</item>
+        <item>Vatsa</item>
+        <item>Gautam</item>
+        <item>Shandilya</item>
+        <item>Atri</item>
+        <item>Vasistha</item>
+        <item>Kaushik</item>
+        <item>Garg</item>
+        <item>Parashara</item>
+        <item>Sandilya</item>
+        <item>Vashishtha</item>
+        <item>Jamadagni</item>
+        <item>Angirasa</item>
+        <item>Kaundinya</item>
+        <item>Suryavanshi</item>
+        <item>Chandravanshi</item>
+        <item>Agnivanshi</item>
+        <item>Nagvanshi</item>
+        <item>Kachwaha</item>
+        <item>Rathore</item>
+        <item>Tomar</item>
+        <item>Solanki</item>
+        <item>Chauhan</item>
+        <item>Parmar</item>
+        <item>Gohil</item>
+        <item>Pratihar</item>
+        <item>Parihar</item>
+        <item>Rajput</item>
+        <item>Rajawat</item>
+        <item>Agarwal</item>
+        <item>Garg</item>
+        <item>Bansal</item>
+        <item>Mittal</item>
+        <item>Singhal</item>
+        <item>Kansal</item>
+        <item>Mangal</item>
+        <item>Madhukul</item>
+        <item>Goyal</item>
+        <item>Jindal</item>
+        <item>Tayal</item>
+        <item>Kuchhal</item>
+        <item>Goyal</item>
+        <item>Mangal</item>
+        <item>Khandelwal</item>
+        <item>Gupta</item>
+        <item>Maheshwari</item>
+        <item>Oswal</item>
+        <item>Porwal</item>
+        <item>Khandelwal</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="prof">
+        <item>CEO/Founder/CTO/CXO</item>
+        <item>Assistant Professor</item>
+        <item>Professor</item>
+        <item>Associate Professor</item>
+        <item>Manager</item>
+        <item>Senior Manager</item>
+        <item>Consultant</item>
+        <item>Lecturer</item>
+        <item>Social Worker</item>
+        <item>Director</item>
+        <item>Technical lead</item>
+        <item>Software Development Intern</item>
+        <item>Employed in Gov Office </item>
+    </string-array>
+
+    <string-array name="clg">
+
+        <item>IIT Kharagpur</item>
+        <item>IIT Bombay</item>
+        <item>IIT Madras</item>
+        <item>IIT Kanpur</item>
+        <item>IIT Delhi</item>
+        <item>IIT Guwahati</item>
+        <item>IIT Roorkee</item>
+        <item>IIT Ropar</item>
+        <item>IIT Bhubaneswar</item>
+        <item>IIT Gandhinagar</item>
+        <item>IIT Hyderabad</item>
+        <item>IIT Jodhpur</item>
+        <item>IIT Patna</item>
+        <item>IIT Indore</item>
+        <item>IIT Mandi</item>
+        <item>IIT Varanasi</item>
+        <item>IIT Palakkad</item>
+        <item>IIT Tirupati</item>
+        <item>IIT Dhanbad</item>
+        <item>IIT Bhilai</item>
+        <item>IIT Dharwad</item>
+        <item>IIT Jammu</item>
+        <item>IIT Goa</item>
+
+        <item>Birla Institute of Technology and Science - Pilani</item>
+        <item>Birla Institute of Technology and Science - Pilani, Goa campus</item>
+        <item>Birla Institute of Technology and Science - Pilani, Hyderabad Campus.</item>
+        <item>Birla Institute of Technology and Science - Pilani, Dubai Campus</item>
+        <item>Birla Institute of Technology and Science - Pilani, Pilani Campus</item>
+
+        <item>IIM Ahmedabad</item>
+        <item>IIM Bangalore</item>
+        <item>IIM Calcutta</item>
+        <item>IIM Lucknow</item>
+        <item>IIM Indore</item>
+        <item>IIM Kozhikode</item>
+        <item>IIM Raipur</item>
+        <item>IIM Ranchi</item>
+        <item>IIM Rohtak</item>
+        <item>IIM Kashipur</item>
+        <item>IIM Tiruchirappalli</item>
+        <item>IIM Udaipur</item>
+        <item>IIM Amritsar</item>
+        <item>IIM Bodh Gaya</item>
+        <item>IIM Nagpur</item>
+        <item>IIM Sambalpur</item>
+        <item>IIM Sirmaur</item>
+        <item>IIM Visakhapatnam</item>
+        <item>IIM Jammu</item>
+        <item>IIM Mumbai</item>
+
+        <item>XLRI â€“ Xavier School of Management</item>
+        <item>S.P Jain College of Management and Research</item>
+        <item>NIT Warangal(NITW)</item>
+        <item>NIT Bhopal(MANIT)</item>
+        <item>NIT Nagpur(VNIT)</item>
+        <item>NIT Durgapur(NITDGP)</item>
+        <item>NIT Jamshedpur(NITJSR)</item>
+        <item>NIT Karnataka(NITK)</item>
+        <item>NIT Srinagar(NITSRI)</item>
+        <item>NIT Allahabad(MNNIT)</item>
+        <item>NIT Surat(SVNIT)</item>
+        <item>NIT Calicut(NITC)</item>
+        <item>NIT Rourkela(NITR)</item>
+        <item>NIT Jaipur(MNIT)</item>
+        <item>NIT Kurukshetra(NITKKR)</item>
+        <item>NIT Tiruchirappalli(NITT)</item>
+        <item>NIT Silchar(NITS)</item>
+        <item>NIT Hamirpur(NITH)</item>
+        <item>NIT Jalandhar(NITJ)</item>
+        <item>NIT Patna(NITP)</item>
+        <item>NIT Raipur(NITRR)</item>
+        <item>NIT Agartala(NITA)</item>
+        <item>NIT Arunachal Pradesh(NITAP)</item>
+        <item>NIT Delhi(NITD)</item>
+        <item>NIT Goa(NITG)</item>
+        <item>NIT Manipur(NITMN)</item>
+        <item>NIT Meghalaya(NITM)</item>
+        <item>NIT Mizoram(NITMZ)</item>
+        <item>NIT Nagaland(NITN)</item>
+        <item>NIT Puducherry(NITPY)</item>
+        <item>NIT Sikkim(NITSKM)</item>
+        <item>NIT Uttarakhand(NITUK)</item>
+        <item>NIT Andhra Pradesh NITANP</item>
+        <item>Atal Bihari Vajpayee Indian Institute of Information Technology and Management(ABV-IIITMG)</item>
+        <item>Indian Institute of Information Technology, Allahabad(IIITA)</item>
+        <item>Indian Institute of Information Technology, Design and Manufacturing, Jabalpur(IIITDMJ)</item>
+        <item>Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram(IIITDM)</item>
+        <item>Indian Institute of Information Technology, Sri City(IIITSC)</item>
+        <item>Indian Institute of Information Technology, Guwahati(IIITG)</item>
+        <item>Indian Institute of Information Technology, Vadodara(IIITV)</item>
+        <item>Indian Institute of Information Technology, Kota(IIIT Kota)</item>
+        <item>Indian Institute of Information Technology, Tiruchirappalli(IIITT)</item>
+        <item>Indian Institute of Information Technology, Una(IIITU)</item>
+        <item>Indian Institute of Information Technology, Sonepat(IIIT Sonepat)</item>
+        <item>Indian Institute of Information Technology, Kalyani(IIIT Kalyani)</item>
+        <item>Indian Institute of Information Technology, Lucknow(IIITL)</item>
+        <item>Indian Institute of Information Technology, Dharwad(IIITDWD)</item>
+        <item>Indian Institute of Information Technology, Design and Manufacturing, Kurnool(IIITDM Kurnool)</item>
+        <item>Indian Institute of Information Technology, Kottayam(IIIT Kottayam)</item>
+        <item>Indian Institute of Information Technology, Manipur(IIITM)</item>
+        <item>Indian Institute of Information Technology, Nagpur(IIITN)</item>
+        <item>Indian Institute of Information Technology, Pune(IIITP)</item>
+        <item>Indian Institute of Information Technology, Ranchi(IIIT Ranchi)</item>
+        <item>Indian Institute of Information Technology, Surat(IIIT Surat)</item>
+        <item>Indian Institute of Information Technology, Bhopal(IIIT Bhopal)</item>
+        <item>Indian Institute of Information Technology, Bhagalpur(IIIT Bhagalpur)</item>
+        <item>Indian Institute of Information Technology, Agartala(IIIT Agartala)</item>
+        <item>Indian Institute of Information Technology, Raichur</item>
+        <item>Other(Specify)</item>
+
+
+
+    </string-array>
+
+
+
+
+    <string-array name="State">
+        <item>AndhraPradesh</item>
+        <item>ArunachalPradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chattisgarh</item>
+        <item>DadraandNagarHaveli</item>
+        <item>DamanandDiu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>HimachalPradesh</item>
+        <item>JammuandKashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Ladakh</item>
+        <item>MadhyaPradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>TamilNadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>UttarPradesh</item>
+        <item>Uttarakhand</item>
+        <item>WestBengal</item>
+
+    </string-array>
+
+
+</resources>

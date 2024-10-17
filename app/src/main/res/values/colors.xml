@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maroon">#800000</color>
+    <color name="gray"> #808080</color>
+
+    <color name="violet">#CDB7F6</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="coral">#F88379</color>
+    <color name="tan"> #D2B48C</color>
+    <color name="teal"> #008080</color>
+    <color name="crimson"> #DC143C</color>
+    <color name="skin"> #FFDBAC</color>
+    <color name="brown"> #805524</color>
+
+    <color name="DarkBlue">#250285</color>
+    <color name="transparent">#00000000</color>
+    <color name="dgreen">#00C070</color>
+    <color name="yelloww">#FFFF99</color>
+    <color name="dyelloww">#F6BE00</color>
+
+    <!-- colors for button style -->
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+
+    <!-- colors for tab and screent text -->
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+</resources>

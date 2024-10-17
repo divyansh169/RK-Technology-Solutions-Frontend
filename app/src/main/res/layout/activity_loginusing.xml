@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/grp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/HA"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/gray"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:text="Email Id"/>
+
+        <RadioButton
+            android:id="@+id/OA"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:text="Phone no."/>
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/dfgdob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone no.*"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/gray"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnblueish"
+            android:text="Send OTP" />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="OR"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:layout_marginBottom="60dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center">-->
+
+<!--        </TextView>-->
+
+        <LinearLayout
+            android:id="@+id/clforlay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+<!--            <TableRow-->
+<!--                android:id="@+id/hr4r"-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="4dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="#878787" />-->
+
+            <TextView
+                android:id="@+id/Custome4rDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:text="  Or  "
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textSize="19dp" />
+
+<!--            <TableRow-->
+<!--                android:id="@+id/d4r"-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="4dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="#878787" />-->
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/but"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/gray"
+            android:paddingVertical="15dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Login Using Password" />
+        <Button
+            android:id="@+id/but2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:drawableLeft="@drawable/glogo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingVertical="15dp"
+            android:textColor="@color/gray"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Login Using Google" />
+        <Button
+            android:id="@+id/but3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:drawableLeft="@drawable/flogo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingVertical="15dp"
+            android:textColor="@color/gray"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Login Using FaceBook" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp">
+
+
+
+            <TextView
+                android:id="@+id/signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/signinn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Register Now"
+                android:textColor="@color/crimson"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </RadioGroup>
+
+</RelativeLayout>
